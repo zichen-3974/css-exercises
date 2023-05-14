@@ -12,6 +12,28 @@ img {
   font-weight: 900;
 }
 
+.vbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:32px;
+  padding: 20px 20px;
+}
+
+.vbox-smaller-gap {
+  gap: 15px;
+  max-width: 200px;
+}
+
+.hbox {
+  display: flex;
+  gap:52px;
+}
+
+.text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
